@@ -1,10 +1,11 @@
-package com.appium.batch4;
+package com.appium.batch4.basic;
 
+import com.appium.batch4.basic.BaseTest;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class CalculatorTest extends BaseTest{
+public class CalculatorTest extends BaseTest {
     @Test
     public void addShouldSucceed() throws InterruptedException {
 
